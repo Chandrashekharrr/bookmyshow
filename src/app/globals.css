@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+
+
+
+:root {
+  --font-8PX: .5rem; /*8px*/
+  --font-Neutral-12PX: .75rem; /*12px*/
+  --font-Neutral-12PX: .75rem; /*12px*/
+  --font-secondBase: 1rem; /*16px*/
+  --font-size-thirdBase: 1.5rem; /*25px*/
+  --font-size-h1: 2rem; /* 32px */
+  --font-size-h2: 1.56rem; /* 25px */
+  --font-title: 1.25rem; /* 20px */
+  --FontIconColor:#dc354b;
+  --MainTextColor:#333333;
+}
+
+.text-8PX {
+  font-size: var(--font-8PX);
+}
+.text-Neutral-12PX {
+  font-size: var(--font-Neutral-12PX);
+}
+.text-SecondBase {
+  font-size: var(--font-secondBase);
+}
+
+.text-title{
+    font-size: var(--font-title);
+}
+.text-titlePlusbig{
+    font-size: var(--font-size-h2);
+}
+
+.text-highlighter{
+    color:var(--FontIconColor);
+}
+.text-main{
+    color:var(--MainTextColor);
+}
