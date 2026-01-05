@@ -336,7 +336,7 @@ export default function Navbar() {
 
         <div className="searcbararrow w-full  h-16 border-b border-gray-200 p-3 flex justify-between items-center bg-white">
           <MdOutlineKeyboardArrowLeft onClick={handleSearchClicked} className="text-4xl font-extralight leading-none w-fit" />
-          <input type="text" placeholder="Search for Movies, Events, Plays & more" className="w-full p-2  border border-gray-200" />
+          <input type="text" placeholder="Search for Movies, Events, Plays & more" className="w-full p-2  border border-gray-200 outline-none" />
 
         </div>
 
