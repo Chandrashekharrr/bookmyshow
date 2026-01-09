@@ -1,16 +1,15 @@
+import Allcategories from "@/components/Categories/Allcategories";
+import Option from "@/components/Options/Option";
+
 export default function Home(){
 
 
   return(
-  <div className="main w-full h-screen ">
+  <div className="main w-full h-screen py-16">
 
-
-      l;maklvnalkdv
-      alsknvlaksv
-      <h1>lknlk</h1>
-      <h1>lknlk</h1>
-      <h1>lknlk</h1>
-      <h1>lknlk</h1>
+    <Option/>
+    <Allcategories/>
+   
   </div>
   )
 }

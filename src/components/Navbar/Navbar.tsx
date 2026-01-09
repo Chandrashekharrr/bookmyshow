@@ -29,7 +29,7 @@ export default function Navbar() {
 
 
   return (
-    <nav className="w-full fixed">
+    <nav className="w-full fixed z-20">
       <div className="deviceslessthenLG1 w-full  h-16 flex p-3 border-b backdrop-blur-sm border-b-gray-300 fixed">
         <div className="part1 w-full flex flex-col gap-2 justify-start ">
           <h1 className="capitalize text-title font-bold leading-none text-main">
@@ -52,7 +52,7 @@ export default function Navbar() {
 
 
       <div
-        className={`deviceOverlay ${!clicked ? "hidden" : "block"
+        className={`deviceOverlay ${!clicked ? "hidden z-50" : "block z-50"
           } transition-all duration-1000 ease-in-out w-full h-screen fixed z-50 bg-[#ebeaea] flex flex-col gap-1`}
       >
         <div className="FirstDiv w-full bg-white flex justify-start items-center p-4 text-secondBase">
@@ -302,7 +302,7 @@ export default function Navbar() {
 
       </div>
 
-      <div onClick={handleAppClicked} className={`useAppOverlay ${!appclicked ? "hidden" : "block"} w-full h-full bg-black/60 fixed flex items-end justify-center z-50`}>
+      <div onClick={handleAppClicked} className={`useAppOverlay ${!appclicked ? "hidden z-50" : "block z-50"} w-full h-full bg-black/60 fixed flex items-end justify-center z-50`}>
 
 
         <div className="card w-full pb-10 bg-zinc-900  rounded-t-3xl">
@@ -331,7 +331,7 @@ export default function Navbar() {
       </div>
 
 
-      <div className={`overlaySearch ${!searchclicked ? "hidden" : "block"} w-full h-full fixed z-50 bg-[#ebeaea] `}>
+      <div className={`overlaySearch ${!searchclicked ? "hidden z-50" : "block z-50"} w-full h-full fixed z-50 bg-[#ebeaea] `}>
 
 
         <div className="searcbararrow w-full  h-16 border-b border-gray-200 p-3 flex justify-between items-center bg-white">
@@ -373,6 +373,12 @@ export default function Navbar() {
           <div className={`cities w-full p-3 bg-white active:bg-gray-500 border-b-[0.5px] border-gray-200 flex  justify-between`}><h1>kuala</h1> <PiFilmSlateThin  className="text-2xl"/></div>
           <div className={`cities w-full p-3 bg-white active:bg-gray-500 border-b-[0.5px] border-gray-200 flex  justify-between`}><h1>klm</h1> <PiFilmSlateThin  className="text-2xl"/></div>
           <div className={`cities w-full p-3 bg-white active:bg-gray-500 border-b-[0.5px] border-gray-200 flex  justify-between`}><h1>kuala</h1> <PiFilmSlateThin  className="text-2xl"/></div>
+          <div className={`cities w-full p-3 bg-white active:bg-gray-500 border-b-[0.5px] border-gray-200 flex  justify-between`}><h1>lkml</h1> <PiFilmSlateThin  className="text-2xl"/></div>
+          <div className={`cities w-full p-3 bg-white active:bg-gray-500 border-b-[0.5px] border-gray-200 flex  justify-between`}><h1>lkml</h1> <PiFilmSlateThin  className="text-2xl"/></div>
+          <div className={`cities w-full p-3 bg-white active:bg-gray-500 border-b-[0.5px] border-gray-200 flex  justify-between`}><h1>lkml</h1> <PiFilmSlateThin  className="text-2xl"/></div>
+          <div className={`cities w-full p-3 bg-white active:bg-gray-500 border-b-[0.5px] border-gray-200 flex  justify-between`}><h1>lkml</h1> <PiFilmSlateThin  className="text-2xl"/></div>
+          <div className={`cities w-full p-3 bg-white active:bg-gray-500 border-b-[0.5px] border-gray-200 flex  justify-between`}><h1>lkml</h1> <PiFilmSlateThin  className="text-2xl"/></div>
+          <div className={`cities w-full p-3 bg-white active:bg-gray-500 border-b-[0.5px] border-gray-200 flex  justify-between`}><h1>lkml</h1> <PiFilmSlateThin  className="text-2xl"/></div>
           <div className={`cities w-full p-3 bg-white active:bg-gray-500 border-b-[0.5px] border-gray-200 flex  justify-between`}><h1>lkml</h1> <PiFilmSlateThin  className="text-2xl"/></div>
 
 

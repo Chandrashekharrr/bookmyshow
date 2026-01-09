@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Footer(){
 
     return(
-        <div className="footer w-full h-16 border-t border-gray-200 fixed bottom-0 flex justify-between items-center backdrop-blur-sm">
+        <div className="footer w-full h-16 border-t border-gray-200 fixed z-10 bottom-0 flex justify-between items-center backdrop-blur-sm">
 
             <div className="menuWrapperMob h-full w-full flex flex-col justify-center text-center items-center active:text-[#dc354b]">
                 <Image width={22} height={22} alt="image" src="/Images/my.png" className="active:text-[#dc354b]" />
