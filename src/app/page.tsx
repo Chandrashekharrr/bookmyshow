@@ -8,6 +8,8 @@ export default function Home(){
   <div className="main w-full h-screen py-16">
 
     <Option/>
+
+    <div className="test bg-green-500 w-full h-full relative"></div>
     <Allcategories/>
    
   </div>
